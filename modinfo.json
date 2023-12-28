@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "bionic_traits",
+    "name": "Bionic Traits",
+    "authors": [ "KeefTeefa" ],
+    "maintainers": [ "KeefTeefa" ],
+    "description": "Makes it so most current Bionics can be selected as a trait at character creation.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]

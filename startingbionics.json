@@ -1,0 +1,2033 @@
+[
+  {
+    "type": "mutation",
+    "id": "bio_power_storage",
+    "name": { "str": "Bionic: Power Storage Mk. I" },
+    "points": 0,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "eoc_bio_power_storage",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_power_storage" },
+    "effect": [ 
+    { "u_add_bionic": "bio_power_storage" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_power_storage_2",
+    "name": { "str": "Bionic: Power Storage Mk. I - Electric Boogaloo" },
+    "points": 1,
+    "description": "You have the a second copy of the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "eoc_bio_power_storage_2",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_power_storage_2" },
+    "effect": [ 
+    { "u_add_bionic": "bio_power_storage" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_power_storage_3",
+    "name": { "str": "Bionic: Power Storage Mk. I - Electricer Boogaloo" },
+    "points": 2,
+    "description": "You have the a second copy of the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "eoc_bio_power_storage_3",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_power_storage_3" },
+    "effect": [ 
+    { "u_add_bionic": "bio_power_storage" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_power_storage_mkII",
+    "name": { "str": "Bionic: Power Storage Mk. II" },
+    "points": 3,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_power_storage_mkII",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_power_storage_mkII" },
+    "effect": [ 
+    { "u_add_bionic": "bio_power_storage_mkII" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_tools",
+    "name": { "str": "Bionic: Integrated Multitool CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "eoc_bio_tools",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_tools" },
+    "effect": [ 
+    { "u_add_bionic": "bio_tools" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_flashlight",
+    "name": { "str": "Bionic: Cranial Flashlight CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_flashlight",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_flashlight" },
+    "effect": [ 
+    { "u_add_bionic": "bio_flashlight" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_fuel_cell_gasoline",
+    "name": { "str": "Bionic: Gasoline Fuel Cell CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_fuel_cell_gasoline",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_fuel_cell_gasoline" },
+    "effect": [ 
+    { "u_add_bionic": "bio_fuel_cell_gasoline" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_trickle",
+    "name": { "str": "Bionic: Trickle Charger CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_trickle",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_trickle" },
+    "effect": [ 
+    { "u_add_bionic": "bio_trickle" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_lampoil",
+    "name": { "str": "Bionic: Oil Generator CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_lampoil",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_lampoil" },
+    "effect": [ 
+    { "u_add_bionic": "bio_lampoil" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_tattoo_led",
+    "name": { "str": "Bionic: LED Tattoo CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_tattoo_led",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_tattoo_led" },
+    "effect": [ 
+    { "u_add_bionic": "bio_tattoo_led" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_lighter",
+    "name": { "str": "Bionic: Finger Lighter CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_lighter",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_lighter" },
+    "effect": [ 
+    { "u_add_bionic": "bio_lighter" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_magnet",
+    "name": { "str": "Bionic: Electromagnetic Unit CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_magnet",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_magnet" },
+    "effect": [ 
+    { "u_add_bionic": "bio_magnet" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_alarm",
+    "name": { "str": "Bionic: Alarm System CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_alarm",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_alarm" },
+    "effect": [ 
+    { "u_add_bionic": "bio_alarm" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_batteries",
+    "name": { "str": "Bionic: Battery System CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_batteries",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_batteries" },
+    "effect": [ 
+    { "u_add_bionic": "bio_batteries" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_metabolics",
+    "name": { "str": "Bionic: Metabolic Interchange CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_metabolics",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_metabolics" },
+    "effect": [ 
+    { "u_add_bionic": "bio_metabolics" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_ethanol",
+    "name": { "str": "Bionic: Ethanol Burner CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_ethanol",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_ethanol" },
+    "effect": [ 
+    { "u_add_bionic": "bio_ethanol" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_watch",
+    "name": { "str": "Bionic: Internal Chronometer CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_watch",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_watch" },
+    "effect": [ 
+    { "u_add_bionic": "bio_watch" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_torsionratchet",
+    "name": { "str": "Bionic: Joint Torsion Ratchet CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_torsionratchet",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_torsionratchet" },
+    "effect": [ 
+    { "u_add_bionic": "bio_torsionratchet" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_cable",
+    "name": { "str": "Bionic: Cable Charger System CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_cable",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_cable" },
+    "effect": [ 
+    { "u_add_bionic": "bio_cable" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_fitnessband",
+    "name": { "str": "Bionic: Calorie Tracker CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_fitnessband",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_fitnessband" },
+    "effect": [ 
+    { "u_add_bionic": "bio_fitnessband" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_taser",
+    "name": { "str": "Bionic: Super Stun Gun CBM" },
+    "points": 1,
+        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_taser",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_taser" },
+    "effect": [ 
+    { "u_add_bionic": "bio_taser" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_ups",
+    "name": { "str": "Bionic: Unified Power System CBM" },
+    "points": 1,    
+	    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_ups",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_ups" },
+    "effect": [ 
+    { "u_add_bionic": "bio_ups" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_memory",
+    "name": { "str": "Bionic: Enhanced Memory Banks CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_memory",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_memory" },
+    "effect": [ 
+    { "u_add_bionic": "bio_memory" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_painkiller",
+    "name": { "str": "Bionic: Sensory Dulling CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_painkiller",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_painkiller" },
+    "effect": [ 
+    { "u_add_bionic": "bio_painkiller" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_ears",
+    "name": { "str": "Bionic: Enhanced Hearing CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_ears",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_ears" },
+    "effect": [ 
+    { "u_add_bionic": "bio_ears" } ]
+  },{
+    "type": "mutation",
+    "id": "bio_sunglasses",
+    "name": { "str": "Bionic: Anti-Glare Compensators CBM" },
+    "points": 0,        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_sunglasses",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_sunglasses" },
+    "effect": [ 
+    { "u_add_bionic": "bio_sunglasses" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_eye_optic",
+    "name": { "str": "Bionic: Telescopic Eyes CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_eye_optic",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_eye_optic" },
+    "effect": [ 
+    { "u_add_bionic": "bio_eye_optic" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_eye_enhancer",
+    "name": { "str": "Bionic: Diamond Cornea CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_eye_enhancer",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_eye_enhancer" },
+    "effect": [ 
+    { "u_add_bionic": "bio_eye_enhancer" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_dex_enhancer",
+    "name": { "str": "Bionic: Wired Reflexes CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_dex_enhancer",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_dex_enhancer" },
+    "effect": [ 
+    { "u_add_bionic": "bio_dex_enhancer" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_str_enhancer",
+    "name": { "str": "Bionic: Muscle Augmentation CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_str_enhancer",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_str_enhancer" },
+    "effect": [ 
+    { "u_add_bionic": "bio_str_enhancer" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_int_enhancer",
+    "name": { "str": "Bionic: Cerebral Booster CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_int_enhancer",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_int_enhancer" },
+    "effect": [ 
+    { "u_add_bionic": "bio_int_enhancer" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_night_vision",
+    "name": { "str": "Bionic: Implanted Night Vision CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_night_vision",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_night_vision" },
+    "effect": [ 
+    { "u_add_bionic": "bio_night_vision" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_infrared",
+    "name": { "str": "Bionic: Infrared Vision CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_infrared",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_infrared" },
+    "effect": [ 
+    { "u_add_bionic": "bio_infrared" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_targeting",
+    "name": { "str": "Bionic: Targeting System CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_targeting",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_targeting" },
+    "effect": [ 
+    { "u_add_bionic": "bio_targeting" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_ground_sonar",
+    "name": { "str": "Bionic: Terranian Sonar CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_ground_sonar",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_ground_sonar" },
+    "effect": [ 
+    { "u_add_bionic": "bio_ground_sonar" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_membrane",
+    "name": { "str": "Bionic: Nictitating Membrane CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_membrane",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_membrane" },
+    "effect": [ 
+    { "u_add_bionic": "bio_membrane" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_gills",
+    "name": { "str": "Bionic: Respirator CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_gills",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_gills" },
+    "effect": [ 
+    { "u_add_bionic": "bio_gills" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_purifier",
+    "name": { "str": "Bionic: Air Filtration System CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_purifier",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_purifier" },
+    "effect": [ 
+    { "u_add_bionic": "bio_purifier" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_climate",
+    "name": { "str": "Bionic: Internal Climate Control CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_climate",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_climate" },
+    "effect": [ 
+    { "u_add_bionic": "bio_climate" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_heatsink",
+    "name": { "str": "Bionic: Thermal Dissipation CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_heatsink",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_heatsink" },
+    "effect": [ 
+    { "u_add_bionic": "bio_heatsink" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_blood_filter",
+    "name": { "str": "Bionic: Blood Filter CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_blood_filter",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_blood_filter" },
+    "effect": [ 
+    { "u_add_bionic": "bio_blood_filter" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_recycler",
+    "name": { "str": "Bionic: Recycler Unit CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_recycler",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_recycler" },
+    "effect": [ 
+    { "u_add_bionic": "bio_recycler" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_digestion",
+    "name": { "str": "Bionic: Expanded Digestive System CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_digestion",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_digestion" },
+    "effect": [ 
+    { "u_add_bionic": "bio_digestion" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_evap",
+    "name": { "str": "Bionic: Aero-Evaporator CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_evap",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_evap" },
+    "effect": [ 
+    { "u_add_bionic": "bio_evap" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_water_extractor",
+    "name": { "str": "Bionic: Water Extraction Unit CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_water_extractor",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_water_extractor" },
+    "effect": [ 
+    { "u_add_bionic": "bio_water_extractor" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_face_mask",
+    "name": { "str": "Bionic: Facial Distortion CBM" },
+    "points": 0,        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_face_mask",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_face_mask" },
+    "effect": [ 
+    { "u_add_bionic": "bio_face_mask" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_scent_mask",
+    "name": { "str": "Bionic: Olfactory Mask CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_scent_mask",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_scent_mask" },
+    "effect": [ 
+    { "u_add_bionic": "bio_scent_mask" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_cloak",
+    "name": { "str": "Bionic: Cloaking System CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_cloak",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_cloak" },
+    "effect": [ 
+    { "u_add_bionic": "bio_cloak" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_fingerhack",
+    "name": { "str": "Bionic: Fingerhack CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_fingerhack",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_fingerhack" },
+    "effect": [ 
+    { "u_add_bionic": "bio_fingerhack" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_lockpick",
+    "name": { "str": "Bionic: Fingerpick CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_lockpick",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_lockpick" },
+    "effect": [ 
+    { "u_add_bionic": "bio_lockpick" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_night",
+    "name": { "str": "Bionic: Artificial Night Generator CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_night",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_night" },
+    "effect": [ 
+    { "u_add_bionic": "bio_night" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_carbon",
+    "name": { "str": "Bionic: Subdermal Carbon Filament CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_carbon",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_carbon" },
+    "effect": [ 
+    { "u_add_bionic": "bio_carbon" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_armor_head",
+    "name": { "str": "Bionic: Head Alloy Plating CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_armor_head",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_armor_head" },
+    "effect": [ 
+    { "u_add_bionic": "bio_armor_head" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_armor_torso",
+    "name": { "str": "Bionic: Torso Alloy Plating CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_armor_torso",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_armor_torso" },
+    "effect": [ 
+    { "u_add_bionic": "bio_armor_torso" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_armor_arms",
+    "name": { "str": "Bionic: Arms Alloy Plating CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_armor_arms",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_armor_arms" },
+    "effect": [ 
+    { "u_add_bionic": "bio_armor_arms" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_armor_legs",
+    "name": { "str": "Bionic: Legs Alloy Plating CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_armor_legs",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_armor_legs" },
+    "effect": [ 
+    { "u_add_bionic": "bio_armor_legs" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_armor_eyes",
+    "name": { "str": "Bionic: Protective Lenses CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_armor_eyes",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_armor_eyes" },
+    "effect": [ 
+    { "u_add_bionic": "bio_armor_eyes" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_shock",
+    "name": { "str": "Bionic: Electroshock Unit CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_shock",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_shock" },
+    "effect": [ 
+    { "u_add_bionic": "bio_shock" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_heat_absorb",
+    "name": { "str": "Bionic: Heat Drain CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_heat_absorb",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_heat_absorb" },
+    "effect": [ 
+    { "u_add_bionic": "bio_heat_absorb" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_claws",
+    "name": { "str": "Bionic: Bionic Claws CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_claws",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_claws" },
+    "effect": [ 
+    { "u_add_bionic": "bio_claws" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_blade",
+    "name": { "str": "Bionic: Monomolecular Blade CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_blade",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_blade" },
+    "effect": [ 
+    { "u_add_bionic": "bio_blade" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_surgical_razor",
+    "name": { "str": "Bionic: Autonomous Surgical Scalpels CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_surgical_razor",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_surgical_razor" },
+    "effect": [ 
+    { "u_add_bionic": "bio_surgical_razor" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_razors",
+    "name": { "str": "Bionic: Fingertip Razors CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_razors",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_razors" },
+    "effect": [ 
+    { "u_add_bionic": "bio_razors" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_shockwave",
+    "name": { "str": "Bionic: Shockwave Generator CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_shockwave",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_shockwave" },
+    "effect": [ 
+    { "u_add_bionic": "bio_shockwave" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_nanobots",
+    "name": { "str": "Bionic: Repair Nanobots CBM" },
+    "points": 2,        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_nanobots",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_nanobots" },
+    "effect": [ 
+    { "u_add_bionic": "bio_nanobots" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_blood_anal",
+    "name": { "str": "Bionic: Blood Analysis CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_blood_anal",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_blood_anal" },
+    "effect": [ 
+    { "u_add_bionic": "bio_blood_anal" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_geiger",
+    "name": { "str": "Bionic: Integrated Dosimeter CBM" },
+    "points": 0,        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_geiger",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_geiger" },
+    "effect": [ 
+    { "u_add_bionic": "bio_geiger" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_radscrubber",
+    "name": { "str": "Bionic: Radiation Scrubber CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_radscrubber",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_radscrubber" },
+    "effect": [ 
+    { "u_add_bionic": "bio_radscrubber" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_ads",
+    "name": { "str": "Bionic: Active Defense System CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_ads",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_ads" },
+    "effect": [ 
+    { "u_add_bionic": "bio_ads" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_ods",
+    "name": { "str": "Bionic: Offensive Defense System CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_ods",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_ods" },
+    "effect": [ 
+    { "u_add_bionic": "bio_ods" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_uncanny_dodge",
+    "name": { "str": "Bionic: Uncanny Dodge CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_uncanny_dodge",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_uncanny_dodge" },
+    "effect": [ 
+    { "u_add_bionic": "bio_uncanny_dodge" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_resonator",
+    "name": { "str": "Bionic: Sonic Resonator CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_resonator",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_resonator" },
+    "effect": [ 
+    { "u_add_bionic": "bio_resonator" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_hydraulics",
+    "name": { "str": "Bionic: Hydraulic Muscles CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_hydraulics",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_hydraulics" },
+    "effect": [ 
+    { "u_add_bionic": "bio_hydraulics" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_time_freeze",
+    "name": { "str": "Bionic: Time Dilation CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_time_freeze",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_time_freeze" },
+    "effect": [ 
+    { "u_add_bionic": "bio_time_freeze" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_teleport",
+    "name": { "str": "Bionic: Teleportation Unit CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_teleport",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_teleport" },
+    "effect": [ 
+    { "u_add_bionic": "bio_teleport" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_probability_travel",
+    "name": { "str": "Bionic: Probability Travel CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_probability_travel",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_probability_travel" },
+    "effect": [ 
+    { "u_add_bionic": "bio_probability_travel" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_laser",
+    "name": { "str": "Bionic: Finger-Mounted Laser CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_laser",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_laser" },
+    "effect": [ 
+    { "u_add_bionic": "bio_laser" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_emp",
+    "name": { "str": "Bionic: Directional EMP CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_emp",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_emp" },
+    "effect": [ 
+    { "u_add_bionic": "bio_emp" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_pitch_perfect",
+    "name": { "str": "Bionic: Throwing Assist CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_pitch_perfect",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_pitch_perfect" },
+    "effect": [ 
+    { "u_add_bionic": "bio_pitch_perfect" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_emp_armgun",
+    "name": { "str": "Bionic: EMP Projector CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_emp_armgun",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_emp_armgun" },
+    "effect": [ 
+    { "u_add_bionic": "bio_emp_armgun" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_flashbang",
+    "name": { "str": "Bionic: Flashbang Generator CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_flashbang",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_flashbang" },
+    "effect": [ 
+    { "u_add_bionic": "bio_flashbang" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_chain_lightning",
+    "name": { "str": "Bionic: Chain Lightning CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_chain_lightning",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_chain_lightning" },
+    "effect": [ 
+    { "u_add_bionic": "bio_chain_lightning" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_adrenaline",
+    "name": { "str": "Bionic: Adrenaline Pump CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_adrenaline",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_adrenaline" },
+    "effect": [ 
+    { "u_add_bionic": "bio_adrenaline" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_leukocyte",
+    "name": { "str": "Bionic: Leukocyte Breeder System CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_leukocyte",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_leukocyte" },
+    "effect": [ 
+    { "u_add_bionic": "bio_leukocyte" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_speed",
+    "name": { "str": "Bionic: Synaptic Accelerator CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_speed",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_speed" },
+    "effect": [ 
+    { "u_add_bionic": "bio_speed" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_faraday",
+    "name": { "str": "Bionic: Dielectric Capacitance System CBM" },
+    "points": 1,    
+    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_faraday",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_faraday" },
+    "effect": [ 
+    { "u_add_bionic": "bio_faraday" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_remote",
+    "name": { "str": "Bionic: Remote Controller CBM" },
+    "points": 0,        "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_remote",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_remote" },
+    "effect": [ 
+    { "u_add_bionic": "bio_remote" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_syringe",
+    "name": { "str": "Bionic: Intravenous Needletip CBM" },
+    "points": 0,    
+	    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_syringe",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_syringe" },
+    "effect": [ 
+    { "u_add_bionic": "bio_syringe" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_weight",
+    "name": { "str": "Bionic: Titanium Skeletal Bracing CBM" },
+    "points": 1,    
+	    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_weight",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_weight" },
+    "effect": [ 
+    { "u_add_bionic": "bio_weight" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_jointservo",
+    "name": { "str": "Bionic: Joint Servo CBM" },
+    "points": 1,    
+	    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_jointservo",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_jointservo" },
+    "effect": [ 
+    { "u_add_bionic": "bio_jointservo" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_shotgun",
+    "name": { "str": "Bionic: Shotgun Arm CBM" },
+    "points": 1,    
+	    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_shotgun",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_shotgun" },
+    "effect": [ 
+    { "u_add_bionic": "bio_shotgun" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_taste_blocker",
+    "name": { "str": "Bionic: Taste Modifier CBM" },
+    "points": 1,    
+	    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_taste_blocker",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_taste_blocker" },
+    "effect": [ 
+    { "u_add_bionic": "bio_taste_blocker" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_soporific",
+    "name": { "str": "Bionic: Sopoforic Induction CBM" },
+    "points": 0,    
+	    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_soporific",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_soporific" },
+    "effect": [ 
+    { "u_add_bionic": "bio_soporific" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_recoil",
+    "name": { "str": "Bionic: Recoil Compensators CBM" },
+    "points": 1,    
+	    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_recoil",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_recoil" },
+    "effect": [ 
+    { "u_add_bionic": "bio_recoil" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_ar",
+    "name": { "str": "Bionic: Integrated AR System CBM" },
+    "points": 0,    
+	    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_ar",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_ar" },
+    "effect": [ 
+    { "u_add_bionic": "bio_ar" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_radio",
+    "name": { "str": "Bionic: Infolink CBM" },
+    "points": 0,    
+	    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_radio",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_radio" },
+    "effect": [ 
+    { "u_add_bionic": "bio_radio" } ]
+  },
+  {
+    "type": "mutation",
+    "id": "bio_synlungs",
+    "name": { "str": "Bionic: Synthetic Lungs CBM" },
+    "points": 1,    
+	    "description": "You have the associated bionic installed in your body.",
+    "starting_trait": true,
+    "purifiable": false,
+    "player_display": false,
+    "valid": false,
+    "category": [ "HUMAN" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "bio_synlungs",
+	"eoc_type": "EVENT",
+	"required_event": "game_avatar_new",
+	"condition": { "u_has_trait": "bio_synlungs" },
+    "effect": [ 
+    { "u_add_bionic": "bio_synlungs" } ]
+  }
+]
